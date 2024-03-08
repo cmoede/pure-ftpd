@@ -1,0 +1,9 @@
+pure-ftpd (1.0.50-1) unstable; urgency=medium
+
+  Support for MD5, SHA1 and MySQL PASSWORD() has been removed from password hashing.
+  Please use scrypt, argon2 or the system crypt(3).
+
+  The SPSV command has been removed.
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sun, 28 Nov 2021 18:11:06 +0100
+
